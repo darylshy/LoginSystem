@@ -1,9 +1,9 @@
 ### A very basic Angular 1.5 project.  
 ***
-~~A simple personal information form
-+ Adds User's personal info to a small card 
-+ Outputs it on the DOM~~
-+ Changed to a login system
+~~A simple personal information form~~
+~~Adds User's personal info to a small card~~
+~~Outputs it on the DOM~~
+Changed to a login system
 + Takes in personal information
 + Outputs information to a a card to be verified
 + Offers two options
