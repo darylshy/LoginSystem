@@ -1,0 +1,18 @@
+<div class="panel panel-primary text-center verify-info form-wrapper" ng-if="verifying">
+    <button type="button" class="close close-pic" aria-label="Close" ng-click="verify.delete()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="panel-heading individual" ng-include="'/templates/form-headers/user_info_individual.header.html'"></div>
+    <div class="panel-body">
+        <h3 class="person-name">{{::person.firstname}} {{::person.lastname}}</h3>
+        <section class="person-address">
+            <p>{{::person.street}}</p>
+            <p>{{::person.city}}, {{::person.state}} {{::person.zip}}</p>
+            <cite>created on: {{::person.date | date}}</cite>
+        </section>
+        <div class="btn-group verification">
+            <button class="btn btn-default edit-btn" ng-click="delete()">Edit</button>
+            <button class="btn btn-primary verify-btn" ng-click="verified()">Verify</button>
+        </div>
+    </div>
+</div>

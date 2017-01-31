@@ -1,0 +1,11 @@
+@import "../scss.partials/forms/_forms.scss";
+
+div.panel-footer.panel-success.h4.success-message{
+  background-color:forestgreen;
+  color:white;
+  margin-top: 60px;
+}
+
+.btn.btn-primary.pull-right.login-submit{
+  clear: both;
+}

@@ -7,21 +7,11 @@
     .form-wrapper form .form-header {
       margin-bottom: 20px; }
 
-form[name='userbio'] > .panel-heading {
+form > .panel-heading {
   margin-bottom: 20px; }
 
 div.col-md-2.panel.panel-primary.text-center {
   padding: 0 0 20px 0; }
-
-.personal-info-card > .panel:not(:first-child) {
-  margin-left: 20px; }
-
-button.close.close-pic {
-  padding: 5px 5px 0 0; }
-
-.panel-heading.individual > h3 {
-  width: 100%;
-  padding-left: 17.609px; }
 
 .ng-valid.ng-dirty {
   border: 1px solid #428bca; }
@@ -34,4 +24,4 @@ button.close.close-pic {
     width: auto;
     margin: 10px; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=form.css.map */

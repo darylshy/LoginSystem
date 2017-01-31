@@ -1,0 +1,24 @@
+<div ng-controller="loginController as login">
+    <div class="form-wrapper">
+        <form novalidate name="userlogin" ng-submit="userlogin.$valid && login.showSuccessMsg()" class="panel panel-primary">
+            <div class="panel-heading" ng-include="'/templates/form-headers/login_info_main.header.html'"></div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="username">Userame</label>
+                    <input required ng-model="login.user.username" type="text" class="form-control" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required ng-model="login.user.email" type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input required ng-model="login.user.password" type="password" class="form-control" id="password">
+                </div>
+            </div>
+            <button class="btn btn-primary pull-right login-submit">Submit</button>
+            <div class="panel-footer panel-success h4 success-message" ng-show="successful">Login Successful!</div>
+        </form>
+    </div>
+</div>
+
