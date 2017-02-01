@@ -11,7 +11,7 @@ Changed to a login system
     * Verifying routes to the login page
   - Edit
     * Editing removes the card from the DOM and allows you to edit the original form
-+Added a new branch *verify_modal* to use a pop-up modal as an alternative flow for the verification part of the app.
++ Added a new branch *verify_modal* to use a pop-up modal as an alternative flow for the verification part of the app.
 ***
 On the login page, you just enter in the information and once verified a message will appear
 *form validation not worked out compoletely as of yet*
