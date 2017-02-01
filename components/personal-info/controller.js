@@ -2,21 +2,9 @@
 
     let app = angular.module('app');
 
-    class Person{
-        constructor(){
-            this.firstname = "";
-            this.lastname = "";
-            this.street = "";
-            this.city = "";
-            this.state = "";
-            this.zip = "";
-        }
-    }
-
     app.controller('BioController',function ($scope,$location) {
         let vm = this;
         $scope.person = {};
-
         $scope.verifying = false;
 
         vm.addAddress = function(){
