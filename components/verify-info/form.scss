@@ -1,9 +1,22 @@
 @import "../scss.partials/forms/_forms.scss";
 
-button.close.close-pic{
-  padding: 5px 5px 0 0;
-}
-
 div.btn-group.verification{
   margin: 20px 0;
+  button.btn.btn-primary.verify-btn:nth-child(2){
+    margin-left: 0;
+  }
+}
+button{
+  &.close.close-pic{
+    padding: 5px 5px 0 0;
+  }
+  &.close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+}
+
+div.modal-header{
+  position: relative;
 }

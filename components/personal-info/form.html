@@ -5,30 +5,30 @@
             <div class="panel-body">
                 <div class="form-group">
                     <label for="fname">First Name</label>
-                    <input ng-disabled="verifying" required ng-model="person.firstname" type="text" class="form-control" id="fname">
+                    <input required ng-model="person.firstname" type="text" class="form-control" id="fname">
                 </div>
                 <div class="form-group">
                     <label for="lname">Last Name</label>
-                    <input ng-disabled="verifying" required ng-model="person.lastname" type="text" class="form-control" id="lname">
+                    <input required ng-model="person.lastname" type="text" class="form-control" id="lname">
                 </div>
                 <div class="form-group">
                     <label for="street">Street</label>
-                    <input ng-disabled="verifying" required ng-model="person.street" type="text" class="form-control" id="street">
+                    <input required ng-model="person.street" type="text" class="form-control" id="street">
                 </div>
                 <div class="form-group">
                     <label for="city">City</label>
-                    <input ng-disabled="verifying" required ng-model="person.city" type="text" class="form-control" id="city">
+                    <input required ng-model="person.city" type="text" class="form-control" id="city">
                 </div>
                 <div class="form-group">
                     <label for="state">State</label>
-                    <input ng-disabled="verifying" required ng-model="person.state" type="text" class="form-control" id="state">
+                    <input required ng-model="person.state" type="text" class="form-control" id="state">
                 </div>
                 <div class="form-group">
                     <label for="zip">Zip</label>
-                    <input ng-disabled="verifying" required ng-model="person.zip" type="text" class="form-control" id="zip">
+                    <input required ng-model="person.zip" type="text" class="form-control" id="zip">
                 </div>
             </div>
-            <button class="btn btn-primary pull-right" ng-disabled="verifying">Submit</button>
+            <button class="btn btn-primary pull-right" ng-click="addAddress()">Submit</button>
         </form>
     </div>
     <div ng-include="'components/verify-info/form.html'"></div>

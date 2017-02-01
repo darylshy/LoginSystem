@@ -23,10 +23,19 @@ div.col-md-2.panel.panel-primary.text-center {
   .form-wrapper {
     width: auto;
     margin: 10px; } }
-button.close.close-pic {
-  padding: 5px 5px 0 0; }
-
 div.btn-group.verification {
   margin: 20px 0; }
+  div.btn-group.verification button.btn.btn-primary.verify-btn:nth-child(2) {
+    margin-left: 0; }
+
+button.close.close-pic {
+  padding: 5px 5px 0 0; }
+button.close {
+  position: absolute;
+  top: 5px;
+  right: 10px; }
+
+div.modal-header {
+  position: relative; }
 
 /*# sourceMappingURL=form.css.map */
